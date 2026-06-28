@@ -1,0 +1,43 @@
+coins:
+
+  xmr:
+    id: monero
+    symbol: XMR
+    name: Monero
+    algorithm: RandomX
+
+  wow:
+    id: wownero
+    symbol: WOW
+    name: Wownero
+    algorithm: RandomWOW
+
+  sal:
+    id: salvium
+    symbol: SAL
+    name: Salvium
+    algorithm: RandomX
+
+  zeph:
+    id: zephyr-protocol
+    symbol: ZEPH
+    name: Zephyr Protocol
+    algorithm: RandomX
+
+  ryo:
+    id: ryo-currency
+    symbol: RYO
+    name: Ryo Currency
+    algorithm: CryptoNight-GPU
+
+  dero:
+    id: dero
+    symbol: DERO
+    name: Dero
+    algorithm: AstroBWT
+
+  qrl:
+    id: quantum-resistant-ledger
+    symbol: QRL
+    name: Quantum Resistant Ledger
+    algorithm: RandomX
