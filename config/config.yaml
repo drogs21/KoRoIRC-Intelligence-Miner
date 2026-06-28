@@ -1,0 +1,11 @@
+irc:
+  server: "service.koro.bar"
+  port: 9993
+  ssl: false
+
+  nickname: "BoT_MineR"
+  username: "BoT_MineR"
+  realname: "CPU Mining Intelligence"
+
+  channels:
+    - "#korominer"
