@@ -3,13 +3,16 @@ Command Manager
 """
 
 from plugins.ping import ping
+from plugins.coin import coin
 
 
 class CommandManager:
 
     def __init__(self):
+
         self.commands = {
             "ping": ping,
+            "coin": coin,
         }
 
     async def dispatch(self, bot, target, by, message):
@@ -25,7 +28,9 @@ class CommandManager:
         command = parts[0].lower()
         args = parts[1:]
 
-        if command not in self.commands:
+        handler = self.commands.get(command)
+
+        if handler is None:
             return
 
-        await self.commands[command](bot, target, by, args)
+        await handler(bot, target, by, args)
