@@ -1,5 +1,5 @@
 irc:
-  server: "service.koro.bar"
+  server: "irc.atw-inter.net"
   port: 9993
   ssl: false
 
@@ -8,4 +8,4 @@ irc:
   realname: "CPU Mining Intelligence"
 
   channels:
-    - "#korominer"
+    - "#koro"
